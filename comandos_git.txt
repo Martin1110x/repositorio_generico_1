@@ -23,4 +23,8 @@ git commit -m "Descripción_del_cambio_al_repositorio" # Crea un nuevo repositor
 ----------------------------------------------------
 git log # Muestra todos los repositorios de un archivo 
 git log --oneline # Muestra todos los repositorios en una sola linea.
+----------------------------------------------------
+git branch # Muestra la cantidad de ramas que tenes en el repositorio.
+git branch "Nombre_de_la_rama"  # Crea una nueva rama
+----------------------------------------------------  
 
