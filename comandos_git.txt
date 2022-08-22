@@ -28,6 +28,8 @@ git branch # Muestra la cantidad de ramas que tenes en el repositorio.
 git branch "Nombre_de_la_rama"  # Crea una nueva rama
 ----------------------------------------------------  
 git checkout "Nombre_de_la_rama" # Me muevo a otra rama
+git checkout "CODIGO DE REPOSITORIO" # Me muevo a un repositorio viejo
 ----------------------------------------------------
 git merge "nombre_de_la_rama" # Combina la rama con la otra rama llamada.
 ----------------------------------------------------
+git branch -D "mi_rama"  # Borra una rama
