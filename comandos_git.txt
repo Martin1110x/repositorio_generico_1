@@ -1,35 +1,37 @@
 Comandos de git desde la terminal:
 
-git config --global user.name "Nombre" # Cambia el nombre del usuario
+git config --global user.name "Nombre" # Cambia el nombre del usuario.
 ----------------------------------------------------
-git config --global user.email "email_generico@gmail.com" # Cambia el mail del usuario
+git config --global user.email "email_generico@gmail.com" # Cambia el mail del usuario.
 ----------------------------------------------------
-git config --list # Printea información del usuario y el sistema operativo
+git config --list # Printea información del usuario y el sistema operativo.
 ----------------------------------------------------
-git config user.name # Muestra el nombre del usuario
+git config user.name # Muestra el nombre del usuario.
 ----------------------------------------------------
-git config user.email # Muestra el email del usuario
+git config user.email # Muestra el email del usuario.
 ----------------------------------------------------
 ----------------------------------------------------
 
-git init "nombre_de_la_carpeta" # Crea un nuevo repositorio. Si no se le pasa el nombre de la carpeta, lo crea en la carpeta acutal de la terminal
+git init "nombre_de_la_carpeta" # Crea un nuevo repositorio. Si no se le pasa el nombre de la carpeta, lo crea en la carpeta acutal de la terminal.
 ----------------------------------------------------
 git status # Muestra el estado de nuestro repositorio.
 ----------------------------------------------------
-git add "nombre_del_archivo" # Agrega el archivo al "Staging area" (es un checkeo antes de crear un nuevo repositorio)
+git add "nombre_del_archivo" # Agrega el archivo al "Staging area" (es un checkeo antes de crear un nuevo repositorio).
 git add . # Agrega todos los archivos dentro de la carpeta actual en la que se encuentra la terminal.
 ----------------------------------------------------
-git commit -m "Descripción_del_cambio_al_repositorio" # Crea un nuevo repositorio con una nueva versión de nuestro código actualizada
+git commit -m "Descripción_del_cambio_al_repositorio" # Crea un nuevo repositorio con una nueva versión de nuestro código actualizada.
 ----------------------------------------------------
-git log # Muestra todos los repositorios de un archivo 
+git log # Muestra todos los repositorios de un archivo. 
 git log --oneline # Muestra todos los repositorios en una sola linea.
 ----------------------------------------------------
 git branch # Muestra la cantidad de ramas que tenes en el repositorio.
-git branch "Nombre_de_la_rama"  # Crea una nueva rama
+git branch "Nombre_de_la_rama"  # Crea una nueva rama.
+git branch -D "Nombre_de_la_rama"  # Elimina una rama.
 ----------------------------------------------------  
-git checkout "Nombre_de_la_rama" # Me muevo a otra rama
-git checkout "CODIGO DE REPOSITORIO" # Me muevo a un repositorio viejo
+git checkout "Nombre_de_la_rama" # Me muevo a otra rama.
+git checkout "CODIGO DE REPOSITORIO" # Me muevo a un repositorio viejo.
+git switch - # Vuelvo al último repositorio.
 ----------------------------------------------------
 git merge "nombre_de_la_rama" # Combina la rama con la otra rama llamada.
 ----------------------------------------------------
-git branch -D "mi_rama"  # Borra una rama
+git branch -D "mi_rama"  # Borra una rama.
