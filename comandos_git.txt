@@ -27,4 +27,5 @@ git log --oneline # Muestra todos los repositorios en una sola linea.
 git branch # Muestra la cantidad de ramas que tenes en el repositorio.
 git branch "Nombre_de_la_rama"  # Crea una nueva rama
 ----------------------------------------------------  
+git checkout "Nombre_de_la_rama" # Me muevo a otra rama
 
